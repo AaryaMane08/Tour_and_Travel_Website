@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    font-family: Verdana;
+    box-sizing: border-box;
+    color: #31363F;
+}
+body{
+    background-color: #DFF5FF;
+}
+.main_page{
+    display: flex;
+}
+.text_layout{
+    width: 70%;
+    height: 100vh;
+    /* border: 2px solid black;  */
+}
+.heading{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+#head_1{
+    font-size: 60px;
+    font-weight: 500;
+}
+#head_2{
+    padding-top: 15px;
+    font-size: 0.9rem;
+}
+.visit_us,
+.call_us,
+.mail_us{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.main_head{
+    font-size: 20px;
+    font-weight: 500;
+}
+.text{
+    font-size: 0.9rem;
+}
+.box_3info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.box1_customersupport,
+.box2_feeback,
+.box3_media{
+    /* border: 2px solid black; */
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.box_heading{
+    font-size: 15px;
+    font-weight: bold;
+}
+.box_text{
+    padding-top: 10px;
+    font-size: 0.9rem;
+}
+.connect_us{
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.icon-style i{
+    font-size: 30px;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+.icon-style i:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease; 
+}
+.box_layout{
+    width: 50%;
+    height: 100vh;
+    /* border: 2px solid black; */
+} 
+.getintouch_box{
+    border-radius: 15px;
+    border: none;
+    margin-top: 90px;
+    width: 550px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: white;
+}
+.title{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+#h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+#h2{
+    font-size: 18px;
+}
+.inputs_1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.firstname,
+.lastname,
+.email,
+.phoneno {
+    flex: 1; 
+    padding: 0 10px; 
+    box-sizing: border-box;
+}
+.firstname,
+.lastname {
+    /* margin-right: 10px;  */
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.firstname input,
+.lastname input{
+    width: 210px;
+    height: 40px;
+    border: 2px solid #E5E1DA;
+    border-radius: 20px;
+}
+.firstname input::placeholder,
+.lastname input::placeholder{
+    color: #D0D4CA;
+    padding-left: 10px;
+}
+.inputs_2{
+    padding-top: 15px;
+}
+.email{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.phoneno,
+.help{
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.email input,
+.phoneno input{
+    width: 500px;
+    height: 40px;
+    border: 2px solid #E5E1DA;
+    border-radius: 20px;
+}
+.help input{
+    width: 500px;
+    height: 200px;
+    border: 2px solid #E5E1DA;
+    border-radius: 20px;
+}
+.email input::placeholder,
+.phoneno input::placeholder,
+.help input::placeholder{
+    color: #D0D4CA;
+    padding-left: 10px;
+}
+.help input::placeholder{
+    position: absolute;
+    top: 10px;
+}
+.submit,
+.bottom_text{
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.submit_btn{
+    width: 500px;
+    height: 40px;
+    /* border: 2px solid #E5E1DA; */
+    border-radius: 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+}
+.bottom_text{
+    font-size: 0.9rem;
+    padding-bottom: 15px;
+    text-align: center;
+}

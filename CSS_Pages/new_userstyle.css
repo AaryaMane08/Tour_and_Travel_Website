@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    font-family: Verdana;
+    box-sizing: border-box;
+    color: #31363F;
+}
+.row{
+    display: flex;
+    height: 100vh;
+}
+.column{
+    flex: 50%;
+    padding: 20px;
+    text-align: center;
+}
+.heading{
+    color: #41C9E2;
+    font-weight: 100;
+    padding-top: 20px;
+}
+.inputs{
+    display: grid;
+    justify-content: center;
+    padding-top: 30px;
+}
+.user_name,
+.user_number,
+.user_email,
+.user_location,
+.user_password,
+.confrim_password{
+    padding-top: 15px;
+}
+.user_name input,
+.user_number input,
+.user_email input,
+.user_location input,
+.user_password input,
+.confrim_password input{
+    border: 2px solid #E5E1DA;
+    border-radius: 5px;
+    width: 340px;
+    height: 40px;
+}
+.user_name input::placeholder,
+.user_number input::placeholder,
+.user_email input::placeholder,
+.user_location input::placeholder,
+.user_password input::placeholder,
+.confrim_password input::placeholder {
+    color: #D0D4CA;
+    padding-left: 10px;
+}
+.bottom{
+    display: grid;
+    justify-items: center;
+}
+.account_btn{
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 340px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #FF0060;
+    color: white;
+}
+.or{
+    padding-top: 20px;
+    text-align: center;
+}
+.member{
+    padding-top: 20px;
+}
+.member p a{
+    text-decoration: none;
+    color: #FF0060;
+}
